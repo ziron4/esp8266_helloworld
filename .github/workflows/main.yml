@@ -23,8 +23,3 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: nsfilho/esp8266-rtos-sdk@v2
-
-      - name: Build project
-        run: |
-          echo "Building"
-          make
